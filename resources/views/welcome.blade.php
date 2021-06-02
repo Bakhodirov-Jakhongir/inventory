@@ -463,10 +463,6 @@
 
     }
   </script>
-
-
-
-
   <script src="{{ secure_asset('backend/vendor/jquery-easing/jquery.easing.min.js')}}"></script>
   <script src="{{ secure_asset('backend/js/ruang-admin.min.js')}}"></script>
   <script src="{{ secure_asset('backend/vendor/chart.js/Chart.min.js')}}"></script>
