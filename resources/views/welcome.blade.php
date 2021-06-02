@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link href="{{ secure_asset('backend/img/logo/logo.png')}}" rel="icon">
-  <title>Easy Learning Invertory - Dashboard</title>
+  <title>Invertory - Dashboard</title>
   <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/app.css')}}">
 
   <link href="{{ secure_asset('backend/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
@@ -30,7 +30,7 @@
             <div class="sidebar-brand-icon">
               <img src="{{ secure_asset('backend/img/logo/logo2.png')}}">
             </div>
-            <div class="sidebar-brand-text mx-3">Easy Inventory</div>
+            <div class="sidebar-brand-text mx-3">Inventory</div>
           </a>
           <hr class="sidebar-divider my-0">
           <li class="nav-item active">
