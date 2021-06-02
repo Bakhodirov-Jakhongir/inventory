@@ -7,13 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link href="{{ asset('backend/img/logo/logo.png')}}" rel="icon">
+  <link href="{{ secure_asset('backend/img/logo/logo.png')}}" rel="icon">
   <title>Easy Learning Invertory - Dashboard</title>
-  <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/app.css')}}">
 
-  <link href="{{ asset('backend/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
-  <link href="{{ asset('backend/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
-  <link href="{{ asset('backend/css/ruang-admin.min.css')}}" rel="stylesheet">
+  <link href="{{ secure_asset('backend/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+  <link href="{{ secure_asset('backend/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
+  <link href="{{ secure_asset('backend/css/ruang-admin.min.css')}}" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -28,7 +28,7 @@
         <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
           <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
             <div class="sidebar-brand-icon">
-              <img src="{{ asset('backend/img/logo/logo2.png')}}">
+              <img src="{{ secure_asset('backend/img/logo/logo2.png')}}">
             </div>
             <div class="sidebar-brand-text mx-3">Easy Inventory</div>
           </a>
@@ -390,7 +390,7 @@
               <div class="topbar-divider d-none d-sm-block"></div>
               <li class="nav-item dropdown no-arrow">
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <img class="img-profile rounded-circle" src="{{ asset('backend/img/boy.png')}}" style="max-width: 60px">
+                  <img class="img-profile rounded-circle" src="{{ secure_asset('backend/img/boy.png')}}" style="max-width: 60px">
                   <router-link to="/logout" class="ml-2 d-none d-lg-inline text-white small">Logout
                   </router-link>
                 </a>
@@ -451,9 +451,9 @@
   <a class="scroll-to-top rounded" href="#page-top">
     <i class="fas fa-angle-up"></i>
   </a>
-  <script src="{{ asset('js/app.js')}}"></script>
-  <script src="{{ asset('backend/vendor/jquery/jquery.min.js')}}"></script>
-  <script src="{{ asset('backend/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{ secure_asset('js/app.js')}}"></script>
+  <script src="{{ secure_asset('backend/vendor/jquery/jquery.min.js')}}"></script>
+  <script src="{{ secure_asset('backend/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
   <script type="text/javascript">
     let token = localStorage.getItem('token');
@@ -467,10 +467,10 @@
 
 
 
-  <script src="{{ asset('backend/vendor/jquery-easing/jquery.easing.min.js')}}"></script>
-  <script src="{{ asset('backend/js/ruang-admin.min.js')}}"></script>
-  <script src="{{ asset('backend/vendor/chart.js/Chart.min.js')}}"></script>
-  <script src="{{ asset('backend/js/demo/chart-area-demo.js')}}"></script>
+  <script src="{{ secure_asset('backend/vendor/jquery-easing/jquery.easing.min.js')}}"></script>
+  <script src="{{ secure_asset('backend/js/ruang-admin.min.js')}}"></script>
+  <script src="{{ secure_asset('backend/vendor/chart.js/Chart.min.js')}}"></script>
+  <script src="{{ secure_asset('backend/js/demo/chart-area-demo.js')}}"></script>
 </body>
 
 </html>
